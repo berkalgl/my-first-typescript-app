@@ -1,0 +1,17 @@
+{
+    "extends": "../tsconfig.base",
+    "compilerOptions": {
+        "removeComments": true,
+        //"outFile": "../js/app.js"
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "traceResolution": true
+    },
+    //this is the way how to declare all ts files in modules.
+    // "include": [
+    //     "./**/*"
+    // ]
+    "files": [
+        "./app.ts"
+    ]
+}
